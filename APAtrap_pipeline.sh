@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Making changes to the file
 #This bash script assumes that you have created .bam alignment files from your RNA Sequencing run. This script will convert those .bam file to .bedgraph files and run APA Trap. It also assumes that you have a text file with a list of your sample ID'S called "ids". APA Trap is not a part of bioconda and must be downloaded directly from sourceforge.
 
 #First activate a bioinformaics environement
