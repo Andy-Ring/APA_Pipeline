@@ -36,6 +36,6 @@ $a/identifyDistal3UTR -i $p/bedgraph/*.bedgraph -m $r -o $p/apa/utr.bed
 
 $a/predictAPA -i $p/bedgraph/*.bedgraph -g 3 -n 15 20 16 -u $p/apa/utr.bed -o $p/apa/APA.txt
 
-#After the APA have been called, we can perform differential APA site usage by applying the R package deAPA. THis is best run on your local machine by exporting the APA.txt file and running deAPA.r through Rstudio
+#After the APA have been called, we can perform differential APA site usage by applying the R package deAPA. This is best run on your local machine by exporting the APA.txt file and running deAPA.r through Rstudio
 
 #end
